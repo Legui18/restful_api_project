@@ -13,11 +13,18 @@
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
+
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "leguidb",
+    "password": "qmZdGnzPP20spPFlndeWL5NIhM6yzxfl",
+    "database": "db_api_rest_v7ol",
+    "host": "oregon-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions":{
+      "ssl":{
+        "require":true,
+        "rejectUnauthorized":false
+      }
+    }
   }
 }
